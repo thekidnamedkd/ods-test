@@ -16,7 +16,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4.2.1
         with:
-          fetch-depth: 0  # Ensure all history is fetched
+          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v4.0.4
