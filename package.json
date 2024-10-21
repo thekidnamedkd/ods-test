@@ -1,6 +1,6 @@
 {
-  "name": "@thekidnamedkd/ods",
-  "version": "1.0.0-test",
+  "name": "@thekidnamedkd/ods-test",
+  "version": "1.0.1-test",
   "description": "Implementation of the Aragon's Open Design System",
   "main": "dist/index.es.js",
   "types": "dist/types/src/index.d.ts",
