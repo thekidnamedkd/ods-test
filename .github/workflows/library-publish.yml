@@ -42,12 +42,6 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.ODSTEST }}
 
-      - name: Assign version tag
-        run: |
-          npm dist-tag add @thekidnamedkd/ods-test@${{ steps.package-version.outputs.current-version }} ${{ steps.package-version.outputs.current-version }}
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-
       - name: Read changelog entry for version
         id: read-changelog
         uses: mindsers/changelog-reader-action@v2.2.3
